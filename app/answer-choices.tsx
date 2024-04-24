@@ -15,9 +15,7 @@ interface Params {
 export default function AnswerChoices(params: Params) {
   return (
     <>
-      <span>Model name: {params.modelName}</span>
       <ModelDropdown answers={params.answers} onAction={(key: Key) => params.setModelName(key as string)}/>
-      <span>Answer name: {params.answerName}</span>
       <AnswerDropdown
         answers={params.answers}
         modelName={params.modelName}

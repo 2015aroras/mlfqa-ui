@@ -14,9 +14,7 @@ export default function QuestionDropdown({ entries, language, onAction }: Params
     <>
       <Dropdown>
         <DropdownTrigger>
-          <Button 
-            variant="bordered" 
-          >
+          <Button variant="bordered">
             Question Name
           </Button>
         </DropdownTrigger>
@@ -27,10 +25,7 @@ export default function QuestionDropdown({ entries, language, onAction }: Params
           onAction={onAction}
         >
           {(entry) => (
-            <DropdownItem
-              key={entry.question.name}
-              href={`/cultural/${language}/${entry.question.name}`}
-            >
+            <DropdownItem key={entry.question.name}>
               {entry.question.name}
             </DropdownItem>
           )}
