@@ -1,5 +1,5 @@
-import { getData } from '@/app/get-data';
-import QuestionAnswerBox from './question-answer-box';
+import { getData } from '@/components/get-data';
+import QuestionAnswerBox from '@/components/question-answer-box';
 
 
 export default async function Page() {
