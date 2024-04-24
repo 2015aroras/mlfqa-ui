@@ -1,5 +1,5 @@
 "use client"
-import { Tabs, Tab, Card, CardBody } from '@nextui-org/react';
+import { Tabs, Tab, Card, CardBody, Divider, Snippet } from '@nextui-org/react';
 
 interface Params {
   entry: Entry
@@ -10,8 +10,7 @@ export default function AnswerBox({ entry, answerName }: Params) {
   const answer = entry.answers.filter((answer) => answer.name == answerName)[0];
 
   return (
-    <div>
-      <h2>Answer</h2>
+    <>
       <Tabs aria-label="Dynamic tabs"
         items={Object.values(answer.translations)}>
         {(translation) => (
@@ -24,12 +23,13 @@ export default function AnswerBox({ entry, answerName }: Params) {
           </Tab>
         )}
       </Tabs>
-      <h2>Prompting state</h2>
+      <Divider className="my-4" />
+      <h2>Prompting State</h2>
       <Card>
-        <CardBody>
+        <CardBody className="whitespace-pre">
           {JSON.stringify(answer.prompting_state, undefined, 2)}
         </CardBody>
       </Card>
-    </div>
+    </>
   );
 }

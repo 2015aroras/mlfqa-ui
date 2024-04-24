@@ -6,7 +6,7 @@ export default async function Page() {
   const data = await getData();
 
   return (
-    <div className="container">
+    <div className="container mx-auto">
       <QuestionAnswerBox data={data}/>
     </div>
   );

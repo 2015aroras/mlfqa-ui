@@ -1,10 +1,11 @@
 "use client"
-import { useState } from 'react';
+import { Key, useState } from 'react';
 import AnswerChoices from './answer-choices';
-import { Tabs, Tab, Card, CardBody } from '@nextui-org/react';
+import { Tabs, Tab, Card, CardBody, Divider } from '@nextui-org/react';
 import AnswerBox from './answer-box';
-import QuestionDropdown from './question-dropdown';
-import LanguageDropdown from './language-dropdown';
+import QuestionDropdown from './question-selection';
+import LanguageSelection from './language-selection';
+import { Select, SelectItem, Selection } from '@nextui-org/react';
 
 interface Params {
   data: { entries: Entry[] }
@@ -20,19 +21,49 @@ export default function QuestionAnswerBox({ data }: Params) {
     (entry: any) => questionName && entry.question.name == questionName);
   const entry = matchingEntries.length == 1 ? matchingEntries[0] : undefined;
 
+  function onLanguageSelectionChange(keys: Selection): void {
+    setLanguage((keys as Set<string>).values().next().value)
+    setQuestionName(undefined)
+    setModelName(undefined)
+    setAnswerName(undefined)
+  }
+
+  function onQuestionNameSelectionChange(keys: Selection): void {
+    setQuestionName((keys as Set<string>).values().next().value)
+    setModelName(undefined)
+    setAnswerName(undefined)
+  }
+
+  function onModelNameSelectionChange(keys: Selection): void {
+    setModelName((keys as Set<string>).values().next().value)
+    setAnswerName(undefined)
+  }
+
+  function onAnswerNameSelectionChange(keys: Selection): void {
+    setAnswerName((keys as Set<string>).values().next().value)
+  }
+
   return (
-    <div>
-      <LanguageDropdown entries={data.entries} language={language} onSetLanguage={(key) => setLanguage(key as string)} />
-      <h1>{questionName}</h1>
-      {language &&
-      <QuestionDropdown entries={data.entries} language={language} onAction={(key) => setQuestionName(key as string)}/>
-      }
+    <>
+      <header className="flex flex-row justify-center">
+        <div className="px-4 py-2">
+          <LanguageSelection
+            entries={data.entries}
+            language={language}
+            onSelectionChange={onLanguageSelectionChange} />
+        </div>
+        {language &&
+        <div className="px-4 py-2">
+          <QuestionDropdown entries={data.entries} onSelectionChange={onQuestionNameSelectionChange}/>
+        </div>
+        }
+      </header>
       {questionName && matchingEntries.length > 1 &&
-      <p>Error: found {matchingEntries.length} entries with name {questionName}</p>}
+        <p>Error: found {matchingEntries.length} entries with name {questionName}</p>}
       {questionName && matchingEntries.length == 0 &&
-      <p>Error: found no entries with name {questionName}</p>}
+        <p>Error: found no entries with name {questionName}</p>}
       {entry &&
-      <>
+      <div>
         <div>
           <h2>Question</h2>
           <Tabs aria-label="Dynamic tabs" items={Object.values(entry.question.translations)}>
@@ -47,16 +78,27 @@ export default function QuestionAnswerBox({ data }: Params) {
             )}
           </Tabs>
         </div>
-        <AnswerChoices
-          answers={entry.answers}
-          modelName={modelName}
-          setModelName={setModelName}
-          answerName={answerName}
-          setAnswerName={setAnswerName} />
-        {modelName && answerName && (
-          <AnswerBox entry={entry} answerName={answerName} />
-        )}
-      </>}
-    </div>
+        <Divider className="my-4" />
+        <div>
+          <h2>Answer</h2>
+          {entry.answers.length > 0
+          ? <>
+              <div className="pb-2 flex flex-row">
+                <AnswerChoices
+                  answers={entry.answers}
+                  modelName={modelName}
+                  onModelNameSelectionChange={onModelNameSelectionChange}
+                  answerName={answerName}
+                  onAnswerNameSelectionChange={onAnswerNameSelectionChange} />
+              </div>
+              {modelName && answerName &&
+              <div className="py-2">
+                <AnswerBox entry={entry} answerName={answerName} />
+              </div>}
+            </>
+          : <p>No answers found for this question.</p>}
+        </div>
+      </div>}
+    </>
   );
 }
