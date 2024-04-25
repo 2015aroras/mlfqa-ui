@@ -6,6 +6,7 @@ import QuestionDropdown from '@/components/question-selection';
 import LanguageSelection from '@/components/language-selection';
 import { Selection } from '@nextui-org/react';
 import { useState } from 'react';
+import PromptingStateBox from '@/components/prompting-state-box';
 
 interface Params {
   data: { entries: Entry[] }
@@ -69,11 +70,18 @@ export default function QuestionAnswerBox({ data }: Params) {
           <Tabs aria-label="Dynamic tabs" items={Object.values(entry.question.translations)}>
             {(translation) => (
               <Tab key={translation.language} title={translation.language}>
-                <Card>
-                  <CardBody>
-                    {translation.text}
-                  </CardBody>
-                </Card>
+                <>
+                  <Card>
+                    <CardBody>
+                      {translation.text}
+                    </CardBody>
+                  </Card>
+                  {translation.prompting_state &&
+                  <PromptingStateBox
+                    prompting_state={translation.prompting_state}
+                    title="State when translating" />
+                  }
+                </>
               </Tab>
             )}
           </Tabs>

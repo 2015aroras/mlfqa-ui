@@ -1,6 +1,7 @@
 interface QuestionTranslation {
     language: string,
     text: string,
+    prompting_state?: PromptingState,
 }
 
 interface QuestionTranslations {
@@ -24,10 +25,20 @@ interface PromptingState {
     other_state: any,
 }
 
+interface AnswerTranslation {
+    language: string,
+    text: string,
+    prompting_state?: PromptingState,
+}
+
+interface AnswerTranslations {
+    [language: string]: AnswerTranslation;
+}
+
 interface Answer {
     name: string,
     language: string,
-    translations: object,
+    translations: AnswerTranslations,
     prompting_state: PromptingState,
 }
 
