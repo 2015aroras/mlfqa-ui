@@ -15,28 +15,25 @@ interface Params {
 
 export default function QuestionAnswerBox({ datasets }: Params) {
   const [datasetType, setDatasetType] = useState<DatasetType>(DatasetType.English);
-  const [questionName, setQuestionName] = useState<string | undefined>(undefined);
+  const [questionNumber, setQuestionNumber] = useState<number>(0);
   const [modelName, setModelName] = useState<string | undefined>(undefined);
   const [answerName, setAnswerName] = useState<string | undefined>(undefined);
 
   const data = datasets[datasetType] as Dataset;
-
-  const matchingEntries: Entry[] = data.entries.filter(
-    (entry: any) => questionName && entry.question.name == questionName);
-  const entry = matchingEntries.length == 1 ? matchingEntries[0] : undefined;
+  const entry = data.entries[questionNumber];
 
   function onDatasetSelectionChange(keys: Selection): void {
     const keySet = keys as Set<DatasetType>;
     if (keySet.size == 1) {
       setDatasetType((keys as Set<DatasetType>).values().next().value)
-      setQuestionName(undefined)
+      setQuestionNumber(0)
       setModelName(undefined)
       setAnswerName(undefined)
     }
   }
 
-  function onQuestionNameSelectionChange(keys: Selection): void {
-    setQuestionName((keys as Set<string>).values().next().value)
+  function onQuestionNumberSelectionChange(keys: Selection): void {
+    setQuestionNumber((keys as Set<number>).values().next().value)
     setModelName(undefined)
     setAnswerName(undefined)
   }
@@ -61,14 +58,13 @@ export default function QuestionAnswerBox({ datasets }: Params) {
         </div>
         {datasetType &&
         <div className="px-4 py-2">
-          <QuestionDropdown entries={data.entries} onSelectionChange={onQuestionNameSelectionChange}/>
+          <QuestionDropdown
+            numQuestions={data.entries.length}
+            questionNumber={questionNumber}
+            onSelectionChange={onQuestionNumberSelectionChange}/>
         </div>
         }
       </header>
-      {questionName && matchingEntries && matchingEntries?.length > 1 &&
-        <p>Error: found {matchingEntries.length} entries with name {questionName}</p>}
-      {questionName && matchingEntries && matchingEntries.length == 0 &&
-        <p>Error: found no entries with name {questionName}</p>}
       {entry &&
       <div>
         <div>

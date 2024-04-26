@@ -2,24 +2,25 @@
 import { Select, SelectItem, Selection } from '@nextui-org/react';
 
 interface Params {
-  entries: any[],
+  numQuestions: number,
+  questionNumber: number
   onSelectionChange: ((keys: Selection) => void)
 };
 
-export default function QuestionDropdown({ entries, onSelectionChange }: Params) {
+export default function QuestionDropdown({ numQuestions, questionNumber, onSelectionChange }: Params) {
   return (
     <>
       <Select
-        label="Question Name"
-        items={entries}
+        label="Question Number"
+        selectedKeys={[questionNumber]}
         onSelectionChange={onSelectionChange}
         className="min-w-40"
         >
-          {(entry) => (
-            <SelectItem key={entry.question.name}>
-              {entry.question.name}
+          {Array.from(Array(numQuestions).keys()).map((_, idx) => (
+            <SelectItem key={idx}>
+              {idx.toString()}
             </SelectItem>
-          )}
+          ))}
       </Select>
     </>
   );

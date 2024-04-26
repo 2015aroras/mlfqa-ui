@@ -7,7 +7,7 @@ interface Params {
 };
 
 export default function AnswerSelection({ answers, modelName, onSelectionChange }: Params) {
-  const answerNames = answers.filter((answer) => answer.prompting_state.model_name === modelName)
+  const answerNames = answers.filter((answer) => modelName === undefined || answer.prompting_state.model_name === modelName)
                              .map((answer) => answer.name);
 
   return (
