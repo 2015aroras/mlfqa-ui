@@ -19,12 +19,12 @@ export default function AnswerChoices(params: Params) {
           answers={params.answers}
           onSelectionChange={params.onModelNameSelectionChange}/>
       </div>
-      <div>
+      {params.modelName && <div>
         <AnswerSelection
           answers={params.answers}
           modelName={params.modelName}
           onSelectionChange={params.onAnswerNameSelectionChange}/>
-      </div>
+      </div>}
     </>
   );
 }
