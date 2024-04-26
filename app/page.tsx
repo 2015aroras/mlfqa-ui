@@ -1,13 +1,13 @@
-import { getData } from '@/components/get-data';
+import { getAllDatasets } from '@/components/datasets';
 import QuestionAnswerBox from '@/components/question-answer-box';
 
 
 export default async function Page() {
-  const data = await getData();
+  const datasets = await getAllDatasets();
 
   return (
     <div className="container mx-auto">
-      <QuestionAnswerBox data={data}/>
+      <QuestionAnswerBox datasets={datasets}/>
     </div>
   );
 }

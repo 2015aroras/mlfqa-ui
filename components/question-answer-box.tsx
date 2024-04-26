@@ -3,30 +3,36 @@ import AnswerChoices from '@/components/answer-choices';
 import { Tabs, Tab, Card, CardBody, Divider } from '@nextui-org/react';
 import AnswerBox from '@/components/answer-box';
 import QuestionDropdown from '@/components/question-selection';
-import LanguageSelection from '@/components/language-selection';
+import DatasetSelection from '@/components/dataset-selection';
 import { Selection } from '@nextui-org/react';
 import { useState } from 'react';
 import PromptingStateBox from '@/components/prompting-state-box';
+import { DatasetType } from '@/components/datasets';
 
 interface Params {
-  data: { entries: Entry[] }
+  datasets: { [key in DatasetType]?: Dataset }
 };
 
-export default function QuestionAnswerBox({ data }: Params) {
-  const [language, setLanguage] = useState<string | undefined>(undefined);
+export default function QuestionAnswerBox({ datasets }: Params) {
+  const [datasetType, setDatasetType] = useState<DatasetType>(DatasetType.English);
   const [questionName, setQuestionName] = useState<string | undefined>(undefined);
   const [modelName, setModelName] = useState<string | undefined>(undefined);
   const [answerName, setAnswerName] = useState<string | undefined>(undefined);
+
+  const data = datasets[datasetType] as Dataset;
 
   const matchingEntries: Entry[] = data.entries.filter(
     (entry: any) => questionName && entry.question.name == questionName);
   const entry = matchingEntries.length == 1 ? matchingEntries[0] : undefined;
 
-  function onLanguageSelectionChange(keys: Selection): void {
-    setLanguage((keys as Set<string>).values().next().value)
-    setQuestionName(undefined)
-    setModelName(undefined)
-    setAnswerName(undefined)
+  function onDatasetSelectionChange(keys: Selection): void {
+    const keySet = keys as Set<DatasetType>;
+    if (keySet.size == 1) {
+      setDatasetType((keys as Set<DatasetType>).values().next().value)
+      setQuestionName(undefined)
+      setModelName(undefined)
+      setAnswerName(undefined)
+    }
   }
 
   function onQuestionNameSelectionChange(keys: Selection): void {
@@ -48,20 +54,20 @@ export default function QuestionAnswerBox({ data }: Params) {
     <>
       <header className="flex flex-row justify-center">
         <div className="px-4 py-2">
-          <LanguageSelection
-            entries={data.entries}
-            language={language}
-            onSelectionChange={onLanguageSelectionChange} />
+          <DatasetSelection
+            datasets={datasets}
+            datasetType={datasetType}
+            onSelectionChange={onDatasetSelectionChange} />
         </div>
-        {language &&
+        {datasetType &&
         <div className="px-4 py-2">
           <QuestionDropdown entries={data.entries} onSelectionChange={onQuestionNameSelectionChange}/>
         </div>
         }
       </header>
-      {questionName && matchingEntries.length > 1 &&
+      {questionName && matchingEntries && matchingEntries?.length > 1 &&
         <p>Error: found {matchingEntries.length} entries with name {questionName}</p>}
-      {questionName && matchingEntries.length == 0 &&
+      {questionName && matchingEntries && matchingEntries.length == 0 &&
         <p>Error: found no entries with name {questionName}</p>}
       {entry &&
       <div>
