@@ -15,6 +15,17 @@ export enum DatasetType {
     Polish,
     Russian,
     Spanish,
+    Afar,
+    Balochi,
+    Faroese,
+    Fijian,
+    Hiligaynon,
+    Kirundi,
+    Papiamento,
+    Samoan,
+    Tongan,
+    Tswana,
+    Wolof,
 }
 
 
@@ -33,6 +44,17 @@ export function getDatasetName(type: DatasetType): string {
         [DatasetType.Polish]: "Cultural Polish",
         [DatasetType.Russian]: "Cultural Russian",
         [DatasetType.Spanish]: "Cultural Spanish",
+        [DatasetType.Afar]: "Cultural Afar",
+        [DatasetType.Balochi]: "Cultural Balochi",
+        [DatasetType.Faroese]: "Cultural Faroese",
+        [DatasetType.Fijian]: "Cultural Fijian",
+        [DatasetType.Hiligaynon]: "Cultural Hiligaynon",
+        [DatasetType.Kirundi]: "Cultural Kirundi",
+        [DatasetType.Papiamento]: "Cultural Papiamento",
+        [DatasetType.Samoan]: "Cultural Samoan",
+        [DatasetType.Tongan]: "Cultural Tongan",
+        [DatasetType.Tswana]: "Cultural Tswana",
+        [DatasetType.Wolof]: "Cultural Wolof",
     }
 
     return typeToName[type];
@@ -54,6 +76,17 @@ export async function getDataset(type: DatasetType): Promise<Dataset | undefined
         // [DatasetType.Polish]: "dataset-polish.json",
         [DatasetType.Russian]: "dataset-russian.json",
         [DatasetType.Spanish]: "dataset-spanish.json",
+        [DatasetType.Afar]: "dataset-afar.json",
+        [DatasetType.Balochi]: "dataset-balochi.json",
+        [DatasetType.Faroese]: "dataset-faroese.json",
+        [DatasetType.Fijian]: "dataset-fijian.json",
+        [DatasetType.Hiligaynon]: "dataset-hiligaynon.json",
+        [DatasetType.Kirundi]: "dataset-kirundi.json",
+        [DatasetType.Papiamento]: "dataset-papiamento.json",
+        [DatasetType.Samoan]: "dataset-samoan.json",
+        [DatasetType.Tongan]: "dataset-tongan.json",
+        [DatasetType.Tswana]: "dataset-tswana.json",
+        [DatasetType.Wolof]: "dataset-wolof.json",
     }
 
     const filename = typeToFilename[type];
