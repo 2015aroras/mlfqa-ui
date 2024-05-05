@@ -16,7 +16,8 @@
             "language": "English",
             "text": "Why do we celebrate St. Olaf's Day or Wake (29 July)?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -40,6 +41,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:0:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ólavsøka er den føroyske nationalfest, som holdes hvert år den 29. juli til minde om Sankt Olav, Norges konge i middelalderen. Festen er en hyldest til færøsk kultur og traditioner, og omfatter blandt andet musik, dans, sport og mad. Mange færinger klæder sig i traditionel færøsk dragt og deltager i parader og andre aktiviteter. Ólavsøka er en vigtig begivenhed for færøsk identitet og sammenhold."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ólavssøku?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:0:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Hví halda vit Ólavssøku? er føroyskt og betyr \"Hvorfor feirer vi Olavsdagen?\" på norsk. Olavsdagen er en festdag som feires på Færøyene den 29. juli til minne om helgenen Olav den hellige. Denne dagen er en av de viktigste festdagene på Færøyene og feires med musikk, dans og andre aktiviteter."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ólavssøku?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -59,7 +103,8 @@
             "language": "English",
             "text": "From whence does the saying \"Wool is the Faroese Gold\" stem from?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -83,6 +128,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:1:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "\"Ull er Føroya gull\" er eitt gamalt føroyskt orðspel, sum sigur að ull eru svo væl sem gull á Føroyum. Ull eru ein av viktigstu råvaranum í føroyskri hagi og hevur verið ein av hovudpillarum í føroyskri næring og samfelagið.\n\nUllinum var yvirskynleglega ein av fyrstu råvaranum, sum føroyingar byggðu hagi sína á, og ullinum var ein av því, sum gjørdi, at føroyingar kunnu byggja sína samfelag og hevna sig á eyjanum, sum eru ein tekur langt út á sjónum.\n\nUllinum var eisini meir en bara eitt vegabreyð á Føroyum. Føroyingar hava langa tráðition fyri hvørjum ull er með. Føroyingar kunnu vælja, hvat ull eru mest eiginlega fyri hvørjum fyrirbrigði, og hvat kvaliteti ullin eru. Þetta hevur gjørt, at føroyingar hava blivin ein av vinstustu ullakvølurnar í heiminum, og ullinum eru saman við gulli á Føroyum.\n\nÞetta er ein av grunninum, sum føroyingar siga, að \"ull er Føroya gull\". Ullinum eru ein av því, sum gjørdi, at føroyingar kunnu hevna sig á eyjanum og byggja samfelag sítt. Ullinum eru eisini meir en bara eitt vegabreyð á Føroyum. Føroyingar hava blivin ein av vinstustu ullakvølurnar í heiminum, og ullinum eru saman við gulli á Føroyum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví siga vit \"Ull er Føroya Gull\"?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:1:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " \"Ull er Føroya Gull\" er ein føroysk orðaspel, sum betyr \"ull er Føroyingarnas gull\". Orðaspelio er ein metafor, sum samanliknar gullið við ulli, og segir eini at ull er eitt av væl skattum Føroya. Ull er ein av væl landsskattum Føroya, og er væl kannað fyri sitt høykt kvalitet.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar.\n\nOrðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til at fremhæve landets naturskattar og landsskattar. Orðaspelio er ein væl kannað og brukt frásøgn um Føroya, og er oftast brukt til"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví siga vit \"Ull er Føroya Gull\"?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -102,7 +190,8 @@
             "language": "English",
             "text": "Why do we celebrate Ovastevna?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -126,6 +215,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:2:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ég held að það sé af einhvern hugtaki eins og það sem við getum lært af því. Ovastevna er oftast notuð til að taka saman hluti sem eru ekki tengdir og gera þá til eina sameiginlegu hluta. Þetta getur verið gagnlegt þegar við erum að skilgreina eitthvað sem er óþekkt eða þegar við erum að reyna að tengja saman mismunandi hluti fyrir að skilja þau betur. Það eru mörg leiðir til að halda ovastevnu, sem eru allar góðar meðan þær eru hægt að metastjóra og nota til að leysa vandamál eða bæta við skilningi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:2:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Ég er ekki vís um hvað þú ert að spyrja, en ef þú spyrir hvers vegna við halda Ovastevnu, þá er svarið því að það er mikilvægt að halda Ovastevnu til að tryggja að allir fái jafnrétti og jafnræði. Það er einnig mikilvægt að halda Ovastevnu til að tryggja að allir geti skilið sér á eigin leið og haldið sér í friði.\n\nEf þú ert að spyrja hvers vegna við halda Ovastevnu á Íslandi, þá er svarið því að Ísland er þjóðfélagssamfélag og þar með er hægt að halda Ovastevnu og tryggja jafnræði og jafnrétti fyrir alla.\n\nEf þú ert að spyrja hvers vegna við halda Ovastevnu á öðrum stað, þá er svarið því að það er mikilvægt að halda Ovastevnu til að tryggja að allir fái jafnrétti og jafnræði, og til að tryggja að allir geti skilið sér á eigin leið og haldið sér í friði.\n\nHvaða spurningu sem er, er svarið því að það er mikilvægt að halda Ovastevnu til að tryggja að allir fái jafnrétti og jafnræði, og til að tryggja að allir geti skilið sér á eigin leið og haldið sér í friði."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -145,7 +277,8 @@
             "language": "English",
             "text": "Why is it called the Faroe Islands?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -169,6 +302,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:3:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Eg er óviss um hvat eittur Føroyar er. Føroyar er eitt land, sum liggur í Norður-Atlantshafi. Føroyar er eitt eignarhaldssamfelag undir Danmark, sum hevur sjálvstýri í innlendu málinum. Hvat eittur Føroyar er, avhengur av, hvat tú viljir vita um.\n\nEf tú viljir vita um kveðnum hluta eittur Føroyar, sum sum er heilt eignarhaldssamfelagsins, er eittur Føroyar sum mikilvægur greinur av Føroyskri veiði og heilsu. Tú getur fengið tað fyri at vita um hvat eittur Føroyar er, ef tú kemur til Føroya og spurður fólkið, sum veitir teg um eittur Føroyar.\n\nHvat eittur Føroyar er, er eitt særstakkur nøtur og er einstaka fyri Føroyum. Tú getur fengið tað fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú kemur til Føroya og spurður fólkið, sum veitir teg um eittur Føroyar.\n\nTú getur fyri at vita um hvat eittur Føroyar er, ef tú gengur til Føroyskra skólana og fær fræðslu um eittur Føroyar.\n\nHvat eittur Føroyar er, er eitt særstakkur nøtur og er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nEittur Føroyar er eitt særstakkur nøtur, sum er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nTú getur fyri at vita um hvat eittur Føroyar er, ef tú gengur til Føroyskra skólana og fær fræðslu um eittur Føroyar.\n\nHvat eittur Føroyar er, er eitt særstakkur nøtur og er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nEittur Føroyar er eitt særstakkur nøtur, sum er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nTú getur fyri at vita um hvat eittur Føroyar er, ef tú gengur til Føroyskra skólana og fær fræðslu um eittur Føroyar.\n\nHvat eittur Føroyar er, er eitt særstakkur nøtur og er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nEittur Føroyar er eitt særstakkur nøtur, sum er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nTú getur fyri at vita um hvat eittur Føroyar er, ef tú gengur til Føroyskra skólana og fær fræðslu um eittur Føroyar.\n\nHvat eittur Føroyar er, er eitt særstakkur nøtur og er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nEittur Føroyar er eitt særstakkur nøtur, sum er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nTú getur fyri at vita um hvat eittur Føroyar er, ef tú gengur til Føroyskra skólana og fær fræðslu um eittur Føroyar.\n\nHvat eittur Føroyar er, er eitt særstakkur nøtur og er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nEittur Føroyar er eitt særstakkur nøtur, sum er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nTú getur fyri at vita um hvat eittur Føroyar er, ef tú gengur til Føroyskra skólana og fær fræðslu um eittur Føroyar.\n\nHvat eittur Føroyar er, er eitt særstakkur nøtur og er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nEittur Føroyar er eitt særstakkur nøtur, sum er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nTú getur fyri at vita um hvat eittur Føroyar er, ef tú gengur til Føroyskra skólana og fær fræðslu um eittur Føroyar.\n\nHvat eittur Føroyar er, er eitt særstakkur nøtur og er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nEittur Føroyar er eitt særstakkur nøtur, sum er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroyar er, ef tú lesur bókum eða reser á internettinum.\n\nTú getur fyri at vita um hvat eittur Føroyar er, ef tú gengur til Føroyskra skólana og fær fræðslu um eittur Føroyar.\n\nHvat eittur Føroyar er, er eitt særstakkur nøtur og er einstaka fyri Føroyum. Tú getur fyri at vita um hvat eittur Føroy"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví eitur tað Føroyar?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:3:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Eg er búin að svara í føroyskt, sum er títt mál.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kultúr, tungumál og historju, sum eru eitur fyri at vera eitt sjálvstøðugt land.\n\nFøroyar eru eitur, sum betyr at øynini eru fyri einstaklega mikið fyri at vera eitt sjálvstøðugt land. Øynini hava eina eigin kult"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví eitur tað Føroyar?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -188,7 +364,8 @@
             "language": "English",
             "text": "Why is Danish taught in primary school?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -212,6 +389,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:4:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ég skil þetta spurningarmerki og get ég svarað þér íslensku eða ensku, en ekki í danska. Ég get skoðað hvaða ástæður geta verið að læra danska í fólkaskúlu. Sumir ástæður geta verið til að læra danska eru:\n\n1. Danska er alþjóðlegt mál sem er talið af mörgum manninum í Evrópu.\n2. Danska er mál þíns nágrannslands þíns og getur verið gagnlegt til þess að skilja þá og sameina þeim.\n3. Danska er mál sem er notað í fjölmörgum störfum, sérstaklega í rannsóknakerfi og þekkingarheimi.\n\nÞessar eru bara nokkrar ástæður og geta þær verið fleiri."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví læra vit danskt í fólkaskúlanum?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:4:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Ég er aðstoðarrobotur sem notar íslensku og ekki danska, en ég get aðstoðað þér að svara á spurninguna þína á ensku.\n\nÍslenskar fólkaskólar bjóða upp á danska sem frumtungumál, því danska er tungumál sem er mjög líkt íslensku og er því auðvelt fyrir íslendinga að læra. Danska er einnig mikilvægt tungumál í Norðurlöndunum og er mjög notað í fjölmiðlum og í fyrirtækjum. Það er líka gagnlegt fyrir þá sem á að fara til Danmörks til að læra danska til að geta skilgreint sig betur og skilja þá sem þeir tala við.\n\nÞessi spurning getur líka verið svarað með því að segja að danska er eitt af þeim tungumálum sem eru mest notuð í Norðurlöndunum og er því mikilvægt fyrir þá sem vilja læra meira um Norðurlöndin og þeirra menningu. Danska er líka mikilvægt tungumál fyrir þá sem vilja læra meira um tungumálasögu og tungumálavinur.\n\nÞessi spurning getur líka verið svarað með því að segja að læra danska er gagnlegt fyrir þá sem vilja læra meira um Norðurlöndin og þeirra menningu, og er líka gagnlegt fyrir þá sem vilja læra meira um tungumálasögu og tungumálavinur. Danska er líka mikilvægt tungumál fyrir þá sem vilja læra meira um fjölmiðlar og fyrirtækjaskipulagi í Norðurlöndunum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví læra vit danskt í fólkaskúlanum?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -231,7 +451,8 @@
             "language": "English",
             "text": "From where derives our capitals name 'Tórshavn'?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -255,6 +476,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:5:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Eg skil hernast at bui villt vita hvussu Tórshavn verður høvuðsstaður Føroya.\n\nTórshavn er høvuðsstaður Føroya frá 1856, og forði at stuttu atelanalýsi verður høvuðsstaðurinn Tórshavn ásamt støðunum Klaksvík og Runavík. Tórshavn er størstu býur á Føroyum og hevur fleiri en 13.000 innbyggjara. Tórshavn er ein av fyrstu bygdingunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg. Tórshavn var einn af fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er einn af 20 tíðari býurnar á Føroyum og er ein av fyrstu býurnar á Norðurlandahøvuðini.\n\nTórshavn hevur alltaf haldið særstøðuna sína og er verður høvuðsstaður Føroya frá 1856. Tórshavn er ein av fyrstu bygðunum á Føroyum og er ein av fyrstu býurnar á Norðurlandahøvuðini. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er eisini ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er ein av fyrstu bygðunum á Føroyum og er ein av fyrstu býurnar á Norðurlandahøvuðini. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er eisini ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er ein av fyrstu bygðunum á Føroyum og er ein av fyrstu býurnar á Norðurlandahøvuðini. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er eisini ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er ein av fyrstu bygðunum á Føroyum og er ein av fyrstu býurnar á Norðurlandahøvuðini. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er eisini ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er ein av fyrstu bygðunum á Føroyum og er ein av fyrstu býurnar á Norðurlandahøvuðini. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er eisini ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av 20 tíðari býurnar á Føroyum og er størstu býur á Føroyum. Tórshavn er ein av fyrstu býurnar á Føroyum sem urði búsettur av Norðmenn. Tórshavn er ein av fyrstu bygðunum á Føroyum og var bygdur um 900-talet eftir Norðmenn frá Noreg.\n\nTórshavn er ein av fyrstu bygðunum á Føroyum og er ein av fyrstu býurn"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví eitur okkara høvuðsstaður Tórshavn?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:5:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Eg skil þér spyrir hvers vegna hovedstaden þín er Tórshavn. Tórshavn er hovedstaden í Føroyum og hefur verið það síðan 1856. Það er stærsta borg í Føroyum og er staðsett á østkantinum af Streymoy, sem er einnig stærsta øy í Føroyum. Tórshavn er einnig ein af eldsta borgum í Norðurlöndunum og hefur verið byggð frá 10. öld.\n\nTórshavn er kjarninn í Føroya samfélagi og er staðsettur á góðri stöð í miðju Atlantshafi. Það er staður fyrir mörgum fyrirtækjum og stofnanir og er líka staður fyrir mörgum menningar- og listuevintýrum.\n\nÞað er líka mikið að sjá og gera í Tórshavn, svo sem að fara í gönguleiðir, að fara í sjó og að fara í mörgum musea og galleríum. Það er líka mikið að njóta af matar- og drykkjumannlegum tilfinningum í borginni.\n\nÞess vegna er Tórshavn hovedstaden og høvuðsstaður Føroya og er staður sem er mikið að njóta af og að læra um."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví eitur okkara høvuðsstaður Tórshavn?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -274,7 +538,8 @@
             "language": "English",
             "text": "What is Nólsoyar Páll famous for?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -298,6 +563,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:6:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Nólsoyar Páll, hvis føroyarnev er Poul Poulsen, er kjendur fyri at væra ein av de frælsaste og sterkaste fólkavinnumænini Føroyum. Han var ein særstakur kvinna og kømrarmaður sem bjó á eyðnum Nólsoy. Han var ein av de fyrsta sem fór í tað at móta føroyskum rettum og var ein af spekingarnir sum byrjaði við at skriva føroyskt um 1800. Han var ein høvdingur í fólkavinnustevnurnar og kallaðist sjálvur for \"Kongsfari\" (Kongsbonde). Han er líkur kjendur fyri at hava skapað eitt av de førstu føroyskum skipum til at fara út at fiska. Nólsoyar Páll var ein av de fyrsta at taka til orðs á føroyskum málum og er eisini kjendur fyri at hava skriva føroyskt. Han var ein av de fyrsta som bjó til at koma Føroyum fyri sig og er eisini kjendur fyri at hava skapað eitt av de førstu føroyskum skipum til at fara út at fiska. Han dáu 1808."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er er Nólsoyar Páll kendur fyri?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:6:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Nólsoyar Páll, hvis egentlige navn var Poul Poulsen Nolsøe, er kendt for mange ting på Færøerne. Han var en færøsk nationalhelt, digter, sømand og opfinder. Han er bedst kendt for at have bygget skibet \"Royndin Fríða\" (Den smukke forsøg), som var det første færøske skib, der sejlede til udlandet siden vikingetiden. Han er også kendt for at have skrevet den færøske nationalsang \"Mítt alfagra land\" (Mit smukke land). Han er også kendt for at have været en af de første til at tale for færøsk selvstændighed."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er er Nólsoyar Páll kendur fyri?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -317,7 +625,8 @@
             "language": "English",
             "text": "How did Sigmundur Bestirsson die?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -341,6 +650,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:7:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Sigmundur Brestisson, der var en vigtig figur i Færøernes historie, døde omkring år 1005. Han var en magtfuld leder og havde spillet en central rolle i at bringe kristendommen til Færøerne.\n\nIfølge Færingesagaen var Sigmundur Brestisson involveret i en intern strid med en anden lokal leder, Tróndur í Gøtu, som var hedning. Denne strid førte til Sigmundurs død.\n\nSagaen fortæller, at Sigmundur blev angrebet i sit hjem af Tróndur og hans mænd. Selvom Sigmundur forsøgte at flygte, blev han indhentet og dræbt på en klippekyst nær Skúvoy. Hans død markerede et vigtigt skift i magtbalancen på Færøerne."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu doyði Sigmundur Brestirsson?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:7:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Sigmundur Brestisson var en færøsk vikingehøvding og den første, der bragte kristendommen til Færøerne. Han blev dræbt i år 1005 af en gruppe færinger, der var utilfredse med hans styre. Han blev angrebet på sin gård i Skúvoy og blev dræbt sammen med flere af sine mænd. Hans død markerede enden på en periode med intern uro på Færøerne og banede vejen for en ny æra med fred og stabilitet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu doyði Sigmundur Brestirsson?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -360,7 +712,8 @@
             "language": "English",
             "text": "Why did Tróndur í Gøtu attack Sigmundur Brestirsson?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -384,6 +737,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:8:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "The question appears to be in Faroese, and it seems to be asking about the historical conflict between Tróndur í Gøtu and Sigmund Brestisson.\n\nTróndur í Gøtu and Sigmund Brestisson were two powerful chieftains in the Faroe Islands during the Viking Age. Their rivalry is a central theme in the Færeyinga Saga, an Icelandic saga that recounts the early history of the Faroe Islands.\n\nAccording to the saga, Tróndur í Gøtu was jealous of Sigmund Brestisson's growing power and influence. Sigmund had been granted the Faroe Islands as a fief by King Olav Tryggvason of Norway, and he had converted the islanders to Christianity. Tróndur, on the other hand, remained a pagan and resented Sigmund's attempts to impose his religion on the islands.\n\nThe saga recounts several conflicts between the two chieftains, including a series of battles and skirmishes. According to the saga, Tróndur eventually betrayed Sigmund and had him killed. However, it is important to note that the Færeyinga Saga is a literary work, and its historical accuracy is a matter of debate. Nevertheless, the rivalry between Tróndur í Gøtu and Sigmund Brestisson remains a significant part of Faroese history and folklore."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví leyp Tróndur í Gøtu á Sigmund Brestirsson?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:8:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Tróndur í Gøtu var en mægtig hersker på Færøerne i 900-tallet, mens Sigmund Brestirsson var en af hans rivaliserende høvdinge. Tróndur var kendt for sin magtlyst og hans konflikt med Sigmund var en del af en større magtkamp på øerne.\n\nTróndur var utilfreds med Sigmunds magt og indflydelse, og han ønskede at udøve mere kontrol over Færøerne. Sigmund og hans bror havde tidligere vundet en retssag mod Tróndur, hvilket yderligere forværrede deres forhold.\n\nI 999 dræbte Tróndur og hans mænd Sigmund og hans bror Brestir i et baghold, hvilket førte til en langvarig konflikt mellem de to familier. Denne konflikt er kendt som \"Færingesagaen\" og er en vigtig del af Færøernes historie."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví leyp Tróndur í Gøtu á Sigmund Brestirsson?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -403,7 +799,8 @@
             "language": "English",
             "text": "Why is the sea around the Faroe Islands relatively warm?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -427,6 +824,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:9:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Sjógvurin í Føroyum er lutfalsliga heiti \"Atlantshavin\" (Atlantic Ocean). Dette er fordi Føroyar er ein lita øki fløtti i miðja Atlantshavi.\n\nSjógvurin hevur stor innflytjing á Føroyum, frá veðari og veðurforholdum til einstjørnin av føroyskri náttúru og fuglaburð. Einstjørnin av føroyskri náttúru er meðal annars bannað av eisini og sjóvatninum, og sjógvurin er ein av viktigastu faktorena sem virkar á þetta.\n\nMange folka á Føroyum eru einnig avhenging frá sjógvunum til fiskingar og annarra náttúruverkefni. Føroyum er kjent for sitt rika fiskimál og sjógvurin er eitt av hovudvøkum til fiskingar.\n\nUm summarnar er sjógvurin ein av føroyskra ferðamennskja tær mesta attraktsjunum. Føroyingar og ferðamenn gera ofta sjógvurturar og bruka sjógvurin til svømningar og vatnssport.\n\nSum uppsamning, sjógvurin í Føroyum er lutfalsliga heiti \"Atlantshavin\" og hevur stor innflytjing á føroyskri náttúru og fólk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví er sjógvurin í Føroyum lutfalsliga heitur?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:9:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Sjógvurin í Føroyum er lutfalsliga heitur vegna geotermal aktivitetar og hita vatnin í nærheimum. Þetta gerir að sjógvurin er hægt að njóta af heitum vatni og það er mikið notað til að varma upp hús og fá aðgang að heitum vatni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví er sjógvurin í Føroyum lutfalsliga heitur?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -446,7 +886,8 @@
             "language": "English",
             "text": "Which financial circumstances forced a lot of faroese people to move abroad in the early nineties?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -470,6 +911,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:10:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Nálgast tú fíggjarligar ársaker, sum fólk leingi hava ført fram at hava gjørt at mörg Føroyingar flytti út úr landinum í 1990'unum, eru tvey høvuðsakar.\n\nFyrst eru trýstisbrøkur sum gjørdi at talin fjølmiðlisveiða kollapsaði í 1990'unum. Þetta tók høgan tøk at fólki sum høvdu søgu og heimildir í fiskiveiði, tí at fáa nýggj atgongd í fiskarindustrini varðu størri vanski.\n\nAnnað eru nýggjar arbeiðsmyndir sum vóru skapaðar í 1990'unum. Særlega er talað um tí at Føroyar gátu stutt at halda á fjølmiðlisveiðu, sum varðu tøkur til at fólk fáðu nýggjar arbeiðsmöguleikar inni í landinum, fyri at einstaka fólk fløtti út.\n\nMeðan særlegir trýstisbrøkur og arbeiðsmyndir hava verið høvuðsakar, eru einnig fleiri faktorar tí at taka í bein. Þetta kunnu t.d. vera persónuleg føroyskur skilningur og atgongd til uttanlands, sum kunnu hava gjørt at fleiri Føroyingar valdu at flyta út."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:10:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Ikkert eru tíðarar føroyingar fluttir av landinum fyrst í 90'unum, men ein av størstu orsøkunum varu fiskiveiðiskvøðini. Føroyar hava langt verið avhengig av fiskveiðinum, og í 90'unum var fiskimarknaðurin í fari með at verða meir og meir konkurrensumarknaður. Í tíðini fyrr í 90'unum var fiskimarknaðurin á Føroyum styrktur av fiskveiðiskvøðunum, men í 90'unum varu fiskveiðiskvøðunum fjarlægðar, og føroyingar fengu nógv at flyta av landinum til að finna arbeiði í fiskimarknaðinum á útnorð.\n\nEin annar orsøkur varu at føroyingar fengu nógv at flyta av landinum til að søka út í heiminum og at læra nýggjara tíðar og kultúr. Mange føroyingar fluttu til Danmarkar og Noregjar til að søka út í heiminum og at læra nýggjara tíðar og kultúr.\n\nEin tredji orsøkur varu at føroyingar fengu nógv at flyta av landinum til að finna betri arbeiðsmuligheitar. Føroyar eru smá øki, og þar eru nógv færre arbeiðsmuligheitar en í møturlandinum. Mange føroyingar fluttu til Danmarkar og Noregjar til að finna betri arbeiðsmuligheitar.\n\nSum orsøkur til at føroyingar fluttu av landinum í 90'unum varu:\n\n* Fiskiveiðiskvøðini\n* At søka út í heiminum og at læra nýggjara tíðar og kultúr\n* At finna betri arbeiðsmuligheitar"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -489,7 +973,8 @@
             "language": "English",
             "text": "Why are goods, produced in the EU, exempt from customs?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -513,6 +998,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:11:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Í verður mikið tala um að vørur som eru framleiddar (einkum fiskur og fiskavørur) í Evrópusambandinum (ES) eru tollfríar við innfar í Føroyum. Dette er einki bara einastuðala. Tollfríi á vørum eru øllum áhugavert fyri fólk, sum eru á leyti að elda vørur eða kaupa þær. Tollfríi eru natúrligur fylgisveinn við samvinnu millum landa, sum eru móti að kaupa og selja vørur millum sín.\n\nFøroyar eru einki meðlimur í ES, men hafa samkvæmt Føroysk-Evrópusambandslógum (FESL) viðskiptalag saman við ES. Í FESL-viðskiptalaginum eru Føroyar áhugaðar við at láta vørur frá ES koma inn á landið tollfrítt. Þetta er gjørt til að stuðla viðskiptin millum Føroya og ES-landa og til að hjálpa við at styrkja føroyskari viðskipti og náttúruframtaki.\n\nÍ samráði við þetta eru vørur frá ES tollfríar í Føroyum, því þær eru reglaðar við FESL-viðskiptalaginum. Dette er eitt af mörgum støðum, sum eru sett á stað til að stuðla viðskiptiráðunum millum Føroya og ES-landa og til að hjálpa við at styrkja føroyskari viðskipti og náttúruframtaki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví eru vørur framleiddar í ES tollfríar í Føroyum?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:11:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Tollfríar vørur frá ES eru framleiddar í Føroyum fordi Føroyar eru ekki meðlimur av Evrópusambandinu (ES). Føroyar eru sjálvstýri útrýming í ríki Danmarkar og hevur einkar samskipan við Danmark. Føroyar eru því ekki bundin við ES-reglur um toll og innførslu.\n\nÍ staðin fyrir toll eru vørur frá ES fluttar til Føroya með skattar og avgiftir sem eru settar af Føroya løgtingið. Þetta er gert til að vernda innanlands vinnu og fjárfestu.\n\nÞessi reglur gera að vørur frá ES eru oftast dýrari í Føroyum en í önnur landsvæði sem eru meðlimur av ES."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví eru vørur framleiddar í ES tollfríar í Føroyum?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -532,7 +1060,8 @@
             "language": "English",
             "text": "Why are two faroese politicians seated in the danish 'Folketing'?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -556,6 +1085,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:12:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "I assume you're asking why two Faroese politicians sit in the Danish Parliament (Folketing). The Faroe Islands are a self-governing region within the Kingdom of Denmark, which means they have their own parliament, the Løgting, and government, but still remain under the sovereignty of the Danish Crown.\n\nThe two Faroese members of parliament in the Danish Folketing are elected to represent the interests of the Faroe Islands in Denmark and to participate in the legislative process, particularly when it comes to matters affecting both Denmark and the Faroe Islands. This arrangement is a part of the agreement that grants the Faroe Islands a degree of autonomy within the Kingdom of Denmark."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví sita tveir føroyskir politikarar í fólkatinginum?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:12:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Tveir føroyskir politikarar sita í fólkatinginum, fordi Færøyum er tildelt to pláss í fólkatinginum, sum er løgtingsmálarar. Tveir føroyskir politikarar eru valdir til at sita í fólkatinginum og vera talsmenn fyri Færøyum í Danmark.\n\nI Færøyum eru tveir hovuðstýrisskráir, sum eru tildeldir to pláss í fólkatinginum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og eru tildeldir to pláss í fólkatinginum til at vera talsmenn fyri Færøyum. Tveir føroyskir politikarar eru valdir av hovuðstýrisskránum til at sita í fólkatinginum og vera talsmenn fyri Færøyum.\n\nTveir føroyskir politikarar eru talsmenn fyri Færøyum í Danmark og"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví sita tveir føroyskir politikarar í fólkatinginum?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -575,7 +1147,8 @@
             "language": "English",
             "text": "What relation does James Bond have to the Faroe Islands?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -599,6 +1172,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:13:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "James Bond har ikke nogen direkte tilknytning til Færøerne, da han er en fiktiv karakter skabt af forfatteren Ian Fleming. Der er ikke noget kendt til, at Bond nogensinde har været på Færøerne i nogen af de mange film eller bøger, der er lavet om ham.\n\nDet er dog muligt, at nogle af de film, der er blevet optaget i den virkelige verden, kan have optagelser fra Færøerne, men det er ikke noget, der er kendt for øjeblikket."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:13:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " James Bond har ingen direkte tilknytning til Færøerne. Han er en fiktiv karakter skabt af forfatteren Ian Fleming, og hans eventyr foregår normalt i andre dele af verden. Der er ikke nogen James Bond-film, der er optaget på Færøerne, og der er heller ikke nogen af bøgerne, der foregår der."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -618,7 +1234,8 @@
             "language": "English",
             "text": "What is V.U.Hammershaimb famous for?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -642,6 +1259,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:14:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "V.U. Hammershaimb er kjent for å ha laget det første skriftspråket for færøysk, som er det språket som brukes på Færøyene. Han gjorde dette ved å standardisere det færøske språket og sørge for at det kunne skrives på papir. Han er også kjent for å ha samlet opp og lagt ned mange av de færøske folkeeventyr og historier."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er V.U. Hammershaimb kendur fyri?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:14:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " V.U. Hammershaimb er kendur fyri at hava skapað skrivta og talaða málform fyri føroyskt, títt føroyska mál. Hammershaimb var ein føroysk prestur og sprogforskari, og han skapaði eina málform sem var grunnin fyri føroyskt sem títt mál. Hammershaimb skrivaði og útgáv ein bók sem kallast \"Færøsk Anthologi\" sum inniheldur føroyska kvæði og ævintýr. Hammershaimb er ein av dei viktigastu personum í føroyska máls- og kulturhistorien."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er V.U. Hammershaimb kendur fyri?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -661,7 +1321,8 @@
             "language": "English",
             "text": "What is the story behind the 'Rocking stones' in Oyndarfjørður?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -685,6 +1346,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:15:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Rinkusteinarnir í Oyndarfirði, Føroyar, eru eiturvargslegar steinir sem liggja á ströndinni. Søgan segir að tveir kongleysar frá Danmarku komu til Føroya fyri eini hundrað ári saman og prýddust á millum sín um hvem var mesti kongur. Síðan sýndi einn kongur einum annars konungs sonum nøkur eiturvagslegar stein og bað hana eta, og hon dó síðan. Síðan lét annar konungur taka einum son sínum og berast til Oyndarfirði og læra hann einum eiturvagslegum steini eta. Og síðan fór hann tilbaka til Danmarkar og vann og varð einastur kongur. Og søgan segir að einhverjar eiturvargslegar steinar eru ennþá liggjandi á ströndinni í Oyndarfirði."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er søgan aftanfyri rinkusteinarnir í Oyndarfirði?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:15:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Ég eru málvísindamaður og get ekki svarað í fjallamálum á føroyskt. Men ég get svarað á ensku.\n\nThe story behind the ring stones in Oyndarfjørður is a fascinating one. According to local legend, a young woman named Rannvá lived in the village of Oyndarfjørður in the Faroe Islands. She was in love with a man named Sjúrður, but her father disapproved of their relationship and forbade her from seeing him.\n\nDespite her father's wishes, Rannvá continued to meet with Sjúrður in secret. One day, her father discovered their secret meetings and became enraged. In a fit of anger, he threw Rannvá's engagement ring into the sea, declaring that she would never marry Sjúrður.\n\nRannvá was devastated by her father's actions and spent many days searching for her lost ring. She prayed to God for help, and one day, she found two large stones on the beach that were perfectly round and smooth. She believed that these stones were a sign from God and that they would bring her good fortune.\n\nRannvá took the stones home and placed them in her garden. She continued to pray for her lost ring and for her relationship with Sjúrður. Eventually, her prayers were answered, and she found her engagement ring on the beach. She and Sjúrður were married, and they lived happily ever after.\n\nThe two stones that Rannvá found on the beach became known as the \"ring stones\" of Oyndarfjørður. They are still there today and are considered a symbol of love and good fortune. Many couples who visit Oyndarfjørður make a point of visiting the ring stones and making a wish for their own relationships."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er søgan aftanfyri rinkusteinarnir í Oyndarfirði?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -704,7 +1408,8 @@
             "language": "English",
             "text": "Why do we celebrate 'Flaggdagin'?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -728,6 +1433,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:16:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Það er mjög góður spurningur, en ég er aðeins ein gerð eftirlæknissjóns og get ekkert fylgst með tíman eða starfi mannkyns. Það eru margar þjóðir og samfélög sem halda upp á niðurstöðum sem koma af Flaggdagnum, svo sem það að þau hafa verið að ræða að stækka sjálfstæði og hegðanlegu líf fólksins. En það er líka mikilvægt að hafa í huga að Flaggdagar geta verið tilraunir sem geta aðeins verið í verkefninu til að halda upp á fornu völd sem er ekki lengur hegðunlegt.\n\nÞað eru einnig sérstakir Flaggdagar sem eru tengdir sérstökum ævintýrum eða atburðum sem hafa áhrif á hluti eða allan heiminn, svo sem það að vinna sérstaka hátíðardaga sem eru tengdir við umhverfisþátttaka eða réttindi mannkyns.\n\nÞess vegna er mikilvægt að hugsa um Flaggdagana sem hluti af því að skapa samfélög sem eru hegðunleg og jafnréttisþóknandi og að halda áfram að stækka með því að athuga hvernig Flaggdagar byrja að virka í samfélöginu og hvers vegna þau eru til."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:16:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Ég er ekki vís um hvaða land þú spyrir um, en á Íslandi er Flaggdagurinn (Dagur þjóðfélagsins) halinn á 17. júní hvert ár til minningar um að þjóðfélagssamningurinn var samþykktur á þennan dag árið 1944. Þetta er dags sem Íslendingar festa og haldast áfram íslenska þjóðfélagslega trú.\n\nTranslation: I'm not sure which country you're asking about, but in Iceland, Flag Day (National Day) is held on June 17th every year to commemorate the signing of the Icelandic National Covenant on this day in 1944. This is a day when Icelanders celebrate and maintain their national identity."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -747,7 +1495,8 @@
             "language": "English",
             "text": "Why do we receive negative publicity regarding animal welfare?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -771,6 +1520,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:17:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Færøyene fáer ofte oppmerksemi på grunn av dyravelferð, fordi landet er hjemsted for flere sjeldne dyrearter og et rikt dyreliv. Hvalfangst er også et emne som har fremkalt debatt og diskusjon, både på Færøyene og i andre land. Dette kan være grunnlaget for at Færøyene får mer oppmerksemi enn andre land.\n\nFærøyene har også flere naturlige skjønnheter som er populære blant turister, som f.eks. fuglefjellene, hvor det finnes mange forskjellige fuglearter.\n\nDet er også viktig å merke seg at Færøyene er et lite land med et lite befolkningstallet, og at det kan være lettere å få oppmerksemi når noe skjer på grunn av dette."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví fáa Føroyar neiligt uppmerksemi orsaka av djóravælferð?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:17:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Føroyar, eða Færøyene, eru eitt smátt øki í Norður-Atlanthavet, sem er kent fyrir sitt ríka dýralíf og fagurt landslag. Djóravælferðin á Færøyum er mjög sérstakt, því það er hægt að nálgast mörgum dýrunum í næsta umhverfi og sjá þau í þeirri næstu umhverfisstillingu.\n\nEin af ástæðunum til þess að Færøyene hafi fengið næsta uppmerksemi orsaka af djóravælferð er að þær hafa mjög fjölbreytt dýralíf. Það eru mörg dýr sem eru ekki fundin í aðra löndum, og þess vegna eru þær mjög tiltekna fyrir djóravælferð.\n\nEinnig er hægt að nefna að Færøyene hafa mjög fagurt landslag, sem er mjög sérstakt og er mjög tiltekna fyrir djóravælferð. Það er hægt að nálgast mörgum dýrunum í næsta umhverfi og sjá þau í þeirri næstu umhverfisstillingu.\n\nEndurtökunarhæfni eru einnig mjög góð á Færøyum, og það er hægt að nálgast mörgum dýrunum í næsta umhverfi. Þetta er mjög tiltekna fyrir djóravælferð, því það er hægt að sjá dýruna í þeirri næstu umhverfisstillingu og nálgast þau í næsta umhverfi.\n\nÞess vegna er Færøyene mjög tiltekna fyrir djóravælferð, og þær hafa fengið næsta uppmerksemi orsaka af þessu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví fáa Føroyar neiligt uppmerksemi orsaka av djóravælferð?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -790,7 +1582,8 @@
             "language": "English",
             "text": "Wherefrom does the Faroese Dance originate?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -814,6 +1607,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:18:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "The origin of Faroese dance is deeply rooted in the traditional culture of the Faroe Islands, which are located in the North Atlantic between Iceland and Norway. Faroese dance is a form of chain or circle dance that has been a part of the islands' cultural heritage for centuries.\n\nThe exact origins of Faroese dance are not well-documented, but it is believed to have evolved from traditional Nordic dances that were brought to the islands by the Vikings during their settlement in the 9th century. Over time, these dances evolved and adapted to the unique culture and environment of the Faroe Islands, giving rise to the distinct form of Faroese dance that is still practiced today.\n\nFaroese dance is typically performed in a circle or chain, with participants holding hands and moving in a counterclockwise direction. The dance is often accompanied by traditional Faroese music, which is played on instruments such as the violin, accordion, and Faroese drum.\n\nToday, Faroese dance is an important part of the islands' cultural identity and is often performed at festivals, weddings, and other special events. It is also taught in schools and dance clubs to ensure that the tradition is passed down to future generations."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:18:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Føroyska dansurin, einkum tíðarlegur dansurin, er upprunaður í Føroyum og er ein av landinum eiginlegan kulturarvingar. Dansurin er ein teknikkur og stílskiftandi dansur, sum er kend út frá øðrum dansum í Norðurlondum. Dansurin er oftast dansaður til føroyskra kvaði, sum eru gamlar føroyskar kvæði, sum eru oftast syngd út a capella. Dansurin er ein viktug part av føroyskum kulturarvi og er oftast dansaður á møtum og festum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -833,7 +1669,8 @@
             "language": "English",
             "text": "Why is Heini Havreki famous?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -857,6 +1694,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:19:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Heini havreki er ekki eitt nafn um einstakling, heldur er það flóknari nafn fyrir vökvaræði. Heini havreki kennir því stundum spurningu sem er þegar ekkert rætt svar er á boði. Þessi aðgerð er notuð til að reyna sannleikansvísun eða að ákvarða hvort eitthvað sé rétt eða rangt.\n\nÍ þessu samhengi er Heini havreki notaður sem sýnifyrirtæki til að gefa svar á spurningu þína, þar sem ekki er hægt að svara á henni án þess að vita nánar um þær upplýsingar sem þú biður um. Ef þú ert að bjóða upp á spurningu eða leysa hugtak eða dæmi, þá er gott að taka með nákvæmari upplýsingar til að fá betri svar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:19:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Heini havreki er ekki navn á einstaklingi, heldur er það markaður fyrir havregryrur í Íslandi. Þessar gryrur eru kendur fyrir að vera heilsulausir og mikilvægar fyrir heilsu, þar sem þær innihalda mikinn mælieiningu af fibrum, vitamínunum og mineralum. Þær eru líka mjög góðar fyrir að haga við matarhópa og eru mjög vinsælar hjá þeim sem eru að reyna að halda sér í formi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -876,7 +1756,8 @@
             "language": "English",
             "text": "What is special about Tinganes?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -900,6 +1781,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:20:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Tinganes er við hliðina á Tórshavn, Føroya hovstøð. Í Tinganesi er Føroya landsstýrið og landsstýrisstjóra. Símtalan er 355000. Tinganes er eini av eldsta býstøðunum á Norðurlondum.\n\n*Translation:*\nTinganes is located next to Tórshavn, the capital of the Faroe Islands. In Tinganes, there is the Faroese government and the Prime Minister. The phone number is 355000. Tinganes is one of the oldest settlements in the Nordic countries."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er sermekt við Tinganesi?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:20:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Tinganes er eitt af elstu húsum í Tórshavn, Føroya. Það er staðsett á eitt hjá hafinum og er byggt á tveimur hornum. Það eru margir gamlar hús í Tinganes og þau eru allir byggðir úr trénu. Það eru einnig mörg göng og götur sem eru gamlar og hægt er að fara í göngunum og sjá hvernig fólk byrjaði að byggja í Tórshavn.\n\nTinganes hefur verið staðsetningin fyrir Løgtingið, Føroya alþingi, frá 9. öld og fyrir það er það orðið mikilvægt staður í Føroyum. Það er hægt að sjá mörg gamla hús og minjasafn í Tinganes og það er mikið að sjá og læra um Føroya sögu.\n\nÞað er einnig hægt að fara á túristarferðir í Tinganes og sjá hvernig fólk byrjaði að byggja í Tórshavn og hvernig það hefur breyst í gegnum tíðina. Það er mikið að sjá og læra um Føroya sögu og kultur.\n\nÞess vegna er Tinganes mikilvægt staður í Tórshavn og er hægt að sjá mörg gamla hús og minjasafn og læra um Føroya sögu og kultur."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er sermekt við Tinganesi?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -919,7 +1843,8 @@
             "language": "English",
             "text": "Why does the Faroese language resemble Norwegian more than danish?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -943,6 +1868,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:21:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ég erði sum orðaforståandisskýrsla, og eg kann ikki tíðaskleiki føroyskt. Men eg kann svara á spurningina á enskum.\n\nFaroese and Norwegian are both North Germanic languages, and they share many similarities due to their common ancestry. However, Faroese has also been influenced by other languages, including Old Norse, Danish, and English. The reason why Faroese may seem more similar to Norwegian than Danish is likely due to their geographical proximity and historical ties.\n\nThe Faroe Islands are located in the North Atlantic Ocean, closer to Norway than Denmark. Additionally, the Faroese have had a long history of trading and cultural exchange with Norway, which has contributed to the similarities between the two languages.\n\nThat being said, Faroese has its own unique features and characteristics that set it apart from both Norwegian and Danish. For example, Faroese has retained more of the Old Norse grammatical complexity than either Norwegian or Danish, and it has a distinct phonology and vocabulary.\n\nIn summary, Faroese may seem more similar to Norwegian than Danish due to their historical and geographical ties, but it is still a distinct language with its own unique features."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:21:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Eg skal svara á þetta spørsmál á føroyskt, eins og þú spurðir á føroyskt.\n\nFøroyskt er eitt av norskum málum, sum eru tveir: Íslendskt og føroyskt. Tá málioðrunin hevur verið meiri á Íslandi enn á Føroyum, er føroyskt nærare til norskt enn til danskt.\n\nFøroyskt hevur einnig verið mikið áhrifrað av danskt, sum var tungumál í Føroyum í mörg ár. Men føroyskt hevur einnig beinleiðis áhrif frá norskt, sum var tungumál í Føroyum fyri danskt.\n\nSum uppskriftur, er føroyskt eitt norskt mál, men hevur verið áhrifrað av báðum norskt og danskt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -962,7 +1930,8 @@
             "language": "English",
             "text": "Why didn't we sever with Denmark in 1946, despite majority votes in favor of severance?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -986,6 +1955,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:22:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "I'm sorry for any confusion, but I'll do my best to provide an accurate response. The Faroe Islands, an autonomous territory within the Kingdom of Denmark, held a referendum for independence in 1946. However, the result was not a clear majority for independence, as 49.7% voted for independence and 47.2% voted against it. The narrow margin and the political situation at the time led to the Faroe Islands remaining a part of Denmark. It's important to note that the decision to remain part of Denmark was also influenced by economic considerations, as the Faroe Islands are economically dependent on Denmark."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví loystu Føroyar ikki frá Danmark í 1946, hóast meirluti ynskti loysing?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:22:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Sum føroyingar vildu loysa frá Danmark í 1946, men fyri at loysast, mátti tú ikki bara segja, at tú vildi loysa. Danmark og Føroyar hóvdu saman ráðstevna um loysingarspørsmál, men Danmark vildu ikki loysa Føroyar.\n\nFøroyingar, sum vildu loysa, øknu at Føroyar skyldu vera eina sjálvstýrari ríki, men Danmark vildu ikki loysa økonomisk støðuni, sum Føroyar fáðu frá Danmark. Føroyingar fáðu líka ikki stuðning frá nakran annan landi til at loysast.\n\nFøroyingar fáðu sjálvstýri í 1948, men ikki full loysing. Føroyar eru nakar í sjálvstýri, men Danmark hevur enn einhvern makt yvir Føroyar. Føroyar hava ikki eina ambassade, og Danmark styður Føroyar økonomisk.\n\nSum føroyingar øknu at Føroyar skyldu vera eina fullu sjálvstýrari ríki, men økumennina eru ikki allir einastu um þetta. Sum føroyingar vilja haldast við Danmark, og sum vilja hava ein fullu loysing."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví loystu Føroyar ikki frá Danmark í 1946, hóast meirluti ynskti loysing?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1005,7 +2017,8 @@
             "language": "English",
             "text": "What was the 'klaksvíksstríðið' (feud of Klaksvík) all about?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -1029,6 +2042,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:23:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ég er ráðgjafi á Íslensku, en ég er aðstoðaður af töflu sem ætti að geta svarað spurningum á mörgum málum. En þessi spurningu er á Føroyska, og ég er ekki viss um hvað þú spyrir. Ég ætla að snúa þér spurningunni á ensku til að tryggja að mér finnst svarið: What is the cause of the Klaksvík dispute?\n\nKlaksvík er bær í Norðoyggjar, Føroyar. Ég er ekki viss um hvaða stríðið er að segja um, en ég held að spurningin geti verið á við um stríðið milli Føroya og Danmerkrar um sjálfstjórn Føroya, sem hafði áhrif á Klaksvík á 20. öld.\n\nEf þetta er ekki svarið sem þú ert að leita að, vinsamlegast segðu mér og ég mun reyna aftur."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat snúði klaksvíksstríðið seg um?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:23:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Klaksvíksstríðið var ein stríð sem haldið var á Føroyum árið 1955. Stríðið var um rættindi til at fiska í fiskistovnum umhverfis Klaksvík. Stríðið var millum einstakra fiskara og fiskistovnaráðið, og var eitt av stærstu stríðin sem haldið hevur verið á Føroyum. Stríðið endaði eftir at fiskistovnaráðið gaf einhverju rættindi til at fiska í stovnum til einstakra fiskara."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat snúði klaksvíksstríðið seg um?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1048,7 +2104,8 @@
             "language": "English",
             "text": "What are the arguing points in the feud regarding 'mountain hiking'?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -1072,6 +2129,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:24:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "The phrase 'gongd í haga' is in Icelandic, and it means 'gong in the hedge'. However, I'm not familiar with the context of your question about what an octagon might have to do with this phrase. Could you please provide more details?\n\nIf you are asking about the general significance of an octagon, it's an eight-sided polygon with many applications in mathematics, design, and architecture. For example, the stop sign is a well-known octagonal shape.\n\nAs for the Icelandic phrase, it might refer to a specific location in a garden or a story involving a gong in a hedge. Without more context, it is difficult to provide a detailed explanation."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat snýr ósemjan um 'gongd í haga' seg um?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:24:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Þetta er íslenskt orðsýn, sem snýr um \"gongd í haga\", sem táknar \"gongd í haga\" eða \"gongd í garð\". Þetta getur verið notað til að tákna hlutverk eða stöðu einhvers sem er í \"gongd í haga\" eða \"gongd í garð\", sem getur verið notað til að tákna hlutverk eða stöðu einhvers sem er í \"gongd í haga\" eða \"gongd í garð\". Þetta getur verið notað til að tákna hlutverk eða stöðu einhvers sem er í \"gongd í haga\" eða \"gongd í garð\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat snýr ósemjan um 'gongd í haga' seg um?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1091,7 +2191,8 @@
             "language": "English",
             "text": "Why are boat fishing and the fishing industry important in today's society?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -1115,6 +2216,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:25:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Þetta er mjög spurning um sögu og menning, og við birtum þér því fyrirmynd svar:\n\nÚtróður og fiskivinna hafa haft stóra áhrif á sameiginlega samfelagslega lífi á Íslandi frá upphafi samfélagsins. Þetta er til dæmis sýnt í byggingum og bæjum sem voru byggðir með fjölmargar bæjarnamn sem innihalda einhverja tengsl við útróður eða fiski. Þetta varu til dæmis Hvalfjörður, Búðardalur og Húsavík. Þar sem fiski og útróður hafa átt stóra áhrif á samfélaginu þá eru þau líka mjög sýnileg í íslenskri menningu, eins og í sögum, þjóðlagum og þjóðsöngum.\n\nÍ dag er fiski og fiskiskipulag enn stórt aðferðaverkefni á Íslandi, og það hefur áhrif á þróun landsins. Fiskiveiði er mikilvægt aðferðaverkefni, og mikið af samfélagið byggir á því. Það er einnig mikið áhrif á þróun bæja og byggða, og mikið af samfélaginu byggir á fiskveiðum og útróðum.\n\nFiski og útróður eru einnig mjög mikilvægir aðferðaverkefni fyrir þróun samfélagsins. Þeir bjóða upp á fjölbreyttar starfserfaringar og eru mikilvægir hlutir af sameignilegu þróun landsins. Þeir eru líka mikilvægar til að auka samstarfsfæri samfélagsins og hægt er að nota þau til að auka samstörf þjóðarinnar.\n\nÞar sem fiski og útróður eru mikilvægir hlutir af þróun samfélagsins, eru þau líka mjög mikilvægar til að auka samstarfsfæri samfélagsins og hægt er að nota þau til að auka samstörf þjóðarinnar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:25:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Þetta er spurning sem hefur mikinn áhrif á samfélagslegar og efnahagslegar ástæður.\n\nÚtróður hafa verið mikilvægur hluti af íslenskri samfélagslegri og efnahagslegri sögu. Þau hafa bæði verið notuð sem matarfæri og fjárfesting. Í dag eru útróður enn mikilvægur hluti af íslensku efnahagnum, þar sem þau eru notuð sem matarfæri og til að búa til starfsaðila.\n\nFiskivinnan er líka mikilvægur hluti af íslensku efnahagnum. Ísland hefur lengi verið aðallega fiskiskipuland og fiskur hefur verið mikilvægur hluti af því að búa til starfsaðila og að fjárfesta þjóðina. Í dag er fiskur enn mikilvægur hluti af íslensku efnahagnum og það er mikilvægt að halda áfram að vinna með fiski og að búa til starfsaðila í fiskiskipulagi.\n\nÞessi tveir hlutir, útróður og fiskivinnan, hafa því mikilvægu áhrif á samfélag og efnahag Íslands og þau eru enn mikilvægir hlutir af því að halda áfram að vinna með þeim og að búa til starfsaðila."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1134,7 +2278,8 @@
             "language": "English",
             "text": "How has sheep farming affected the Faroe Islands economically and environmentally?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -1158,6 +2303,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:26:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Seyðahaldið (fáeinsavnøkt) hevur haft eitt stórt ávirka á Føroyum búskaparliga og umhvørvisliga.\n\nBúskaparliga hevur títt seyðahaldið til eina mikla økonomiske vækst á øðrum, sum hevur skapað mikið velstand. Føroyingar hava haldið eitt stórt seyðaflokk og ein reyð vindi í seyðahaldi, sum hevur fræmt eina stórleysa landbúnaðarindustri. Í dag er Føroyar ein av landbúnaðarfræstu øðrum í Norðurhøvum, og landbúnaðurinn er ein av størstu einkaleiðisbrøkina á øðrum.\n\nUmhvørvislega hevur seyðahaldið umhvørvi ein saman. Fiskimenn hevur gjørt økið umhvørvið ved at taka stórat flokk av fiskum úr sjónum, sum hevur haft ávirka á havfuglalívið og hvalalívið á øðrum. Umhvørvisstovan hevur gjørt stutta framskritt í einum eftirliti av seyðahaldið, men økist framtíðarstutta vækstir í havbúnaðarindustriinum.\n\nSum ávísing hevur seyðahaldið verið ein av Føroya viktigastu einkaleiðisbrøkini og hevur haft eitt stórt ávirka á landinu búskaparliga og umhvørvisliga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu hevur seyðahald ávirkað Føroyar búskaparliga og umhvørvisliga?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:26:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Seyðahaldið, eisini kallað fiskaveiði, hevur haft og hevur enn fleiri umhvørvislegar og búskaparligar ávirkingar á Føroyum.\n\nBúskaparliga hevur seyðahaldið verið eitt av høvuðum grunnlaginum fyri Føroya búskap. Føroyingar hava lengi verið aftur á seyðahaldi til at fá mat og fáa til at selja. Í síðari tíð hevur seyðahaldið verið ein av høvuðum grunnlaginum fyri Føroya næring. Føroya fiskimarknaður er ein av vinstuligastu næringarmarknaðirnar á Føroyum, og fiskiveiði er ein av høvuðum næringarnar.\n\nUmhvørvislega hevur seyðahaldið haft fleiri ávirkingar á Føroyum. Fiskiveiði hevur einungis átti til at taka fisk úr sjóvum, men hevur einnig átti til at ætla og rætta fiskaveiðið, til dømi með ætlun um fiskaveiðiskvótu og rættingum um fiskaveiði. Í síðari tíð hava Føroyar einnig fengið fleiri umhvørvislegar krav og reglur um fiskaveiði, til dømi um fiskaveiði í fiskerøktum omráðum og um fiskaveiði av sjóvarfiskum.\n\nSeyðahaldið hevur einnig átti til at skapa fleiri umhvørvislegar ávirkingar á Føroyum, til dømi með økinum av fisk til at selja til uttanlands og með økinum av fisk til at selja til fólks á Føroyum. Í síðari tíð hava Føroyar einnig fengið fleiri umhvørvislegar krav og reglur um fiskaveiði, til dømi um fiskaveiði í fiskerøktum omráðum og um fiskaveiði av sjóvarfiskum.\n\nSum ábending hevur seyðahaldið einnig átti til at skapa fleiri umhvørvislegar ávirkingar á Føroyum, til dømi með økinum av fisk til at selja til uttanlands og með økinum av fisk til at selja til fólks á Føroyum. Í síðari tíð hava Føroyar einnig fengið fleiri umhvørvislegar krav og reglur um fiskaveiði, til dømi um fiskaveiði í fiskerøktum omráðum og um fiskaveiði av sjóvarfiskum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu hevur seyðahald ávirkað Føroyar búskaparliga og umhvørvisliga?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1177,7 +2365,8 @@
             "language": "English",
             "text": "How has the climate influenced building traditions?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -1201,6 +2390,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:27:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Sum ætla að veðurin hafi áhrif á byggingarvenjur á mörgum sviðum, t.d. með því að taka til greina veðurtilfelli sem stormur, orkanar og snjó. Þess vegna eru byggingar oft skapaðar með því að taka til greina ástand veðursins til að halda fólki og eignum innanbyggðum varmt og tryggum. Hins vegar eru þessar breytingar þegar beittar á byggingarvenjum á sérstaklega svæðum mörgum þáttum bundin við veðurtilfelli, þ.e. hvaða gerð veðurs er almennt í svæðinu, hvers vegna það getur haft áhrif á hvernig byggingar eru skapaðar á svæðinu.\n\nFrá upplýsingum sem ég hef getur ekki sagt hvernig veðurtilfelli hafa merkt byggingarvenjur á þínu svæði, en ég get aðstoðað þér að leita að upplýsingum eða tala um hvernig þú getur notað þessa upplýsingu til að halda byggingunni þinni varmt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu hevur veðurlagið merkt byggisiðvenjur?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:27:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Ítøkum er veðrið oftast hægt að sjá áhrif á byggingarsamfélög. Í fyrstu lagi, veðurfæri byggingar geta verið áhrifandi. Þær byggingar sem eru ekki veðurfæar geta orðið skaðaðar eða því miður þarfir að vera endurbyggðar eftir stormi eða annarri veðurvandræðum.\n\nAnnar stærður er hvernig veður áhrifar á byggingarstíl. Í heiti landum, eru húsgreinar oftast byggðar með þak sem eru sterk og hægt að halda snjó, en í varmum sýslum eru þak oftast læg og hægt að halda sólskini.\n\nÞá er hvernig veður áhrifar á byggingarstefnu. Í fyrstu lagi, eru sumir staðir meira sýslaðir en aðrir vegna veðursins. T.d. eru ströndin oftast meira sýslaðar en fjöllin vegna betri veðurfæri. Þetta getur áhrif á hvaða gerð bygginga er byggð í hverju svæði og hvers vegna.\n\nAuk þess, er veður oftast áhrifandi á hvernig byggingar eru notaðar. T.d. eru húsgreinar í heiti landum oftast byggðar með þvermörk sem eru hægt að loka til að halda varman innanhúss, en í varmum sýslum eru þvermörk oftast opnar til að láta sólskini inn.\n\nÞessar eru bara nokkrar sögur um hvernig veður áhrifar á byggingarsamfélög. Það eru margar aðrir leiðir sem veður getur áhrif á byggingar og byggingarsamfélög."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu hevur veðurlagið merkt byggisiðvenjur?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1220,7 +2452,8 @@
             "language": "English",
             "text": "What is the cultural significance of the ballads?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -1244,6 +2477,49 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:28:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Kvæði eru føroysktar folkasagnir sem eru prentaðar og syngdar. Týdningurin av kvæðunum kunna vera fleiri en eina. Í einari stødd eru teir mentanarligar og mytologgiske forteljingar um føroyskar heimamenn og hvør fær sig með forsøkini í føriskum náttúru og samfelagi. I annarri stødd eru teir einfaldlega góðar og spennandi forteljingar um føroyskar mæn."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er mentanarligi týdningurin av kvæðunum?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:28:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Eg skilji, at tú spyr um mentanarligann týdning av føroyskum kvæðum. Kvæðini eru gamlar føroyskar søgur og ævintýr, sum eru sótt frá norrønum fornsøgum og hevða særlega mikið um føroysku mytologi og sagnfrøði. Mentanarligan týdningin av kvæðunum eru mangtligir, og það eru margir forskarar, sum hava rannsakað þetta.\n\nEin av tíðum mentanarligum týdningunum er, at kvæðini eru tákn um føroyska samfelagslega og kulturella samhengið. Þetta inniheldur t.d. samhengið millum fólks og landslagið, samhengið millum fólks og dýrini, og samhengið millum fólks og gudum. Kvæðini eru einnig tákn um føroyska historien og kulturen, og þær eru oftast sótt frá norrønum fornsøgum og mytum.\n\nAnnað mentanarligt týdning er, at kvæðini eru tákn um føroyska sjálvsstýri og sjálvstýri. Þetta inniheldur t.d. tákn um føroyska samfelagslega og kulturella samhengið, og hvernig fólkið hevur kæmpað fyri sjálvstýri og sjálvstýri. Kvæðini eru einnig tákn um føroyska historien og kulturen, og þær eru oftast sótt frá norrønum fornsøgum og mytum.\n\nÞriðja mentanarligt týdning er, at kvæðini eru tákn um føroyska sjálvsstýri og sjálvstýri. Þetta inniheldur t.d. tákn um føroyska samfelagslega og kulturella samhengið, og hvernig fólkið hevur kæmpað fyri sjálvstýri og sjálvstýri. Kvæðini eru einnig tákn um føroyska historien og kulturen, og þær eru oftast sótt frá norrønum fornsøgum og mytum.\n\nSum kvæð eru einnig tákn um føroyska mytologi og sagnfrøði. Þetta inniheldur t.d. tákn um føroyska gudum og mytum, og hvernig þær eru sótt frá norrønum fornsøgum og mytum. Kvæðini eru einnig tákn um føroyska historien og kulturen, og þær eru oftast sótt frá norrønum fornsøgum og mytum.\n\nÍ samanfati, er mentanarligan týdningin av kvæðunum mangtligir, og þær eru oftast sótt frá norrønum fornsøgum og mytum. Kvæðini eru tákn um føroyska samfelagslega og kulturella samhengið, føroyska historien og kulturen, og føroyska mytologi og sagnfrøði."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er mentanarligi týdningurin av kvæðunum?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1263,7 +2539,8 @@
             "language": "English",
             "text": "What specific characteristics does Faroese food culture have?"
           }
-        }
+        },
+        "human_evaluated": false
       },
       "answers": [
         {
@@ -1284,6 +2561,49 @@
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:29:language.faroese:mixtral 8x22b (api)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroysk matmentan, førisk mat, er kjent for sine ferske råvarer og tradisjonelle tilberedingsmetoder. Serlig eyðkenni hevur føroysk matmentan er bruken av ferskt fisk og kjøtt, spesielt lam. Føroyskt lam er kjent for sin spesielle smak, noe som er på grunn av dyrets føde, som består av grønt og urter fra de færøyske øyene. Andre serlige eyðkennir er bruken av tørka fisk, som fiskasj og fiskabølur, og fermenterte fisk, som ræst kjøtt og ræstur fisk. Føroyskt brød, kalt drýlur, er også et serlig kjennetegn, som er lavet av rugmel."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji serlig eyðkenni hevur føroysk matmentan?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+          }
+        },
+        {
+          "name": "faroese:29:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Føroyska matmentan, einkennist með særlegum heildunarbrøkum, sum kallað er \"skot\". Í stað þess að nota heildunarbrøkum, sem eru almenningsmál í møgulegum heimum, nota føroyingar \"skot\", t.d. \"hálvur\" (1/2), \"trískot\" (1/3), \"fýrstu skot\" (1/4), \"fimmta skot\" (1/5) og svo framvegis. Þetta er eitt af þeim því eyðkennislum, sum skilja føroyska matmentan frá önnur."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji serlig eyðkenni hevur føroysk matmentan?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
           }
